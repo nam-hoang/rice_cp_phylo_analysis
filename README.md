@@ -17,4 +17,4 @@ Fornasiero et al., "Oryza genome evolution through a tetraploid lens," Nature Ge
 ### Usage
 
 ### Clone the repository:
-git clone https://github.com/nam-hoang/rice_cp_phylo_analysis.git cd rice_cp_phylo_analysis
+git clone https://github.com/nam-hoang/rice_cp_phylo_analysis.git && cd rice_cp_phylo_analysis
