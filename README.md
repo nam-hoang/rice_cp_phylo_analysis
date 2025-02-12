@@ -7,7 +7,7 @@ Fornasiero et al., "Oryza genome evolution through a tetraploid lens," Nature Ge
 ### Contents
 
 - Rice_Chloroplast_Phylogenetic_Analysis_Script.sh - A script with all necessary commands for sequence alignment, trimming, and phylogenetic tree construction.
-- New_27_cp_genomes_correct_A_genomes.fa - Input FASTA file containing concatenated chloroplast genome sequences (LSC).
+- New_27_cp_genomes_correct_A_genomes.fa - Input FASTA file containing concatenated chloroplast genome sequences.
 - Output files generated at each step:
   - New_27_cp_genomes_correct_A_genomes_MAFFT_auto_LSC.fa (LSC regions alignment)
   - New_27_cp_genomes_correct_A_genomes_MAFFT_auto_LSC_trimal_auto.fa (trimmed alignment)
