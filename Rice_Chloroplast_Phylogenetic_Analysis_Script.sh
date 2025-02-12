@@ -13,8 +13,8 @@ conda create -n iqtree python=3.9
 conda activate iqtree
 conda install -c bioconda mafft trimal iqtree
 
-### Note that, input and output files for each of the following steps are also provided
-### together with this text file
+### Note that, input chloroplast genomes and output files for each of the following steps 
+### are also provided together with this text file
 ### at https://github.com/nam-hoang/rice_cp_phylo_analysis
 
 ##########################################################################################
@@ -29,7 +29,7 @@ conda install -c bioconda mafft trimal iqtree
 # See Supplementary Data for accession numbers.
 
 # The Large Single Copy (LSC) regions of these 27 chloroplast genomes were concatenated
-# into a single FASTA file, i.e. "New_27_cp_genomes_correct_A_genomes.fa", and used 
+# into a single FASTA file, i.e. "New_27_cp_genomes_correct_A_genomes_LSC.fa", and used 
 # for the following analyses
 
 ##########################################################################################
@@ -38,8 +38,8 @@ conda install -c bioconda mafft trimal iqtree
 # --auto: Automatically selects the best alignment strategy
 # --thread 96: Uses 96 CPU threads (adjust based on your system resources)
 
-mafft --auto --thread 96 New_27_cp_genomes_correct_A_genomes.fa \
-> New_27_cp_genomes_correct_A_genomes_MAFFT_auto.fa
+mafft --auto --thread 96 New_27_cp_genomes_correct_A_genomes_LSC.fa \
+> New_27_cp_genomes_correct_A_genomes_MAFFT_auto_LSC.fa
 
 ##########################################################################################
 ##########################################################################################
