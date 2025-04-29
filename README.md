@@ -2,7 +2,7 @@
 
 This repository contains a step-by-step script for reconstructing the phylogenetic relationships of chloroplast genomes across the Oryza genus. The analysis supports the findings in:
 
-Fornasiero et al., "Oryza genome evolution through a tetraploid lens," Nature Genetics, 2025.
+Fornasiero, A., Feng, T., Al-Bader, N. et al. Oryza genome evolution through a tetraploid lens. Nat Genet (2025). https://doi.org/10.1038/s41588-025-02183-5
 
 ### Contents
 
